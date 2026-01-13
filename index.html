@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        const temp = parseFloat(prompt("Enter temperature in Celsius: "));
+        const base = parseFloat(prompt('Enter Base'));
+        const height = parseFloat(prompt('Enter Height'));
 
-        const fahrenheit = (temp * 9/5) + 32;
+        const areaOfTriangle = 0.5 * base * height;
 
-        console.log(`Temperature in Fahrenheit : ${fahrenheit} `);
+        console.log(`Base = ${base}`);
+        console.log(`Height = ${height}`);
+        console.log(`Area of Triangle: ${areaOfTriangle}`);
     </script>
 </body>
+
 </html>
